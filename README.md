@@ -2,7 +2,7 @@
 REST API project that expose endpoints to calculate
 average use of diesel fuel and probability of engine breakdown.
 
-environment configuration and project launch
+## Environment configuration and project launch
 
 To run the project you need Node.js together with npm (node package manager). Node.js can be downloaded from the following page: https://nodejs.org/en/download/ NPM is bundled with Node.js. This means that no additional action is required after installing Node.js.
 
@@ -12,10 +12,12 @@ After downloading the package from github, unpack it and then open its content i
 
 Make sure you are in the main project folder in the terminal, and then enter the command:
 
-npm install
+### npm install
+
 This way the missing packages will be installed. To run the server you need to write the command:
 
-node index.js
+### node index.js
+
 Then you need to open a browser and navigate to:
 http:// localhost:5000/
 
@@ -36,4 +38,4 @@ You need to provide below data as number values:
  For example:
  http://localhost:5000/probabilityOfUnitInjectorFail?VIN=sdvshf45464545465
 
- The result will be a failProbability - percentage of the chance that the engine of the model will fail on the Unit Injector element.Meaning “0” means there is no such possibility, and “0,77” means that there is a 77% chance that the Unit Injector will fail.
+ The result will be a failProbability - percentage of the chance that the engine of the model will fail on the Unit Injector element. Meaning “0” means there is no such possibility, and “0,77” means that there is a 77% chance that the Unit Injector will fail.
